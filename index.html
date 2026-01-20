@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>To-do list</title>
+  </head>
+  <body>
+    <main class="todo-main-container">
+      <div class="add-contanier">
+        <input type="text" placeholder="Add a new task" id="task-input" />
+        <button type="button" class="add-btn btn">
+          <img src="images/plus.svg" alt="plus image" />
+        </button>
+      </div>
+      <div class="all-tasks-todo-container">
+        <p class="info-about-the-amount-of-tasks">
+          Tasks to do - <span class="amount-of-tasks">0</span>
+        </p>
+        <ul class="list-of-tasks"></ul>
+      </div>
+      <div class="done-tasks-container">
+        <p class="info-about-the-amount-of-tasks done">
+          Done - <span class="amount-of-done-tasks">0</span>
+        </p>
+        <ul class="done-tasks-list"></ul>
+      </div>
+    </main>
+    <script defer src="js/main.js"></script>
+  </body>
+</html>
