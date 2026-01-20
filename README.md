@@ -11,9 +11,9 @@ A functional To-Do List application developed to practice DOM manipulation and E
 ## 💻 The Process
 
 My journey with this project began after I built a solid foundation in `HTML5` and `CSS3`. Transitioning to `JavaScript` was the next natural step in my learning path.
-Fundamental Practice: Before starting this app, I completed a series of JavaScript exercises to master core language concepts. You can view those exercises in my dedicated repository: `https://github.com/mamartam/js.git`.
+Fundamental Practice: Before starting this app, I completed a series of JavaScript exercises to master core language concepts. You can view those exercises in my dedicated repository: https://github.com/mamartam/js.git.
 Design & Planning: I believe that a good developer should also have an eye for UI/UX. Instead of building a plain interface, I sourced a professional design from the Figma community to guide my styling.
-`Credit: https://www.figma.com/community/file/1348652218299666548/todo-app`.
+Credit: https://www.figma.com/community/file/1348652218299666548/todo-app.
 Development Workflow:
 - Structure: First, I drafted the semantic HTML layout.
 - Styling: I then implemented the CSS, focusing on a modern dark-themed aesthetic and responsive design.
