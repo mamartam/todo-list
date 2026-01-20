@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background-color: #0d0714;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.todo-main-container {
+  background-color: #1d1825;
+  max-width: 800px;
+  width: 600px;
+  border-radius: 20px;
+  padding: 65px;
+  margin: 25px;
+}
+.add-contanier {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.add-contanier input {
+  width: calc(100% - 50px);
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid #9e78cf;
+  background-color: transparent;
+  color: white;
+}
+.add-contanier .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  background-color: #9e78cf;
+  cursor: pointer;
+}
+/* ================================ */
+.all-tasks-todo-container {
+  margin-bottom: 25px;
+}
+.info-about-the-amount-of-tasks {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.list-of-tasks,
+.done-tasks-list {
+  list-style-type: none;
+  width: 100%;
+}
+.todo-list-item {
+  padding: 15px 20px 15px 20px;
+  background-color: #15101c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9e78cf;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+/* ================================ */
+.done-task-item {
+  color: #78cfb0;
+  text-decoration: line-through;
+  background-color: #15101c;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.tick-btn {
+  cursor: pointer;
+  margin-right: 10px;
+}
+.delete-btn {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+  .todo-main-container {
+    background-color: #1d1825;
+    max-width: 500px;
+    width: 100%;
+    padding: 40px;
+    margin: 20px;
+  }
+  .add-contanier {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .add-contanier input {
+    width: calc(100% - 45px);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #9e78cf;
+    background-color: transparent;
+    color: white;
+  }
+  .add-contanier .btn img {
+    width: 25px;
+  }
+  /* ================================ */
+  .all-tasks-todo-container {
+    margin-bottom: 20px;
+  }
+  .info-about-the-amount-of-tasks {
+    margin-bottom: 20px;
+  }
+  .todo-list-item {
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 15px;
+  }
+  /* ================================ */
+  .done-task-item {
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .tick-btn {
+    margin-right: 5px;
+    width: 25px;
+  }
+
+  .delete-btn {
+    width: 25px;
+  }
+}
