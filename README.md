@@ -32,8 +32,6 @@ Here are the key technical concepts I mastered:
 ## 🚀 How It Can Be Improved?
 While the application is fully functional, there are several features I plan to implement to improve the user experience and expand its capabilities:
 
-- Persistent Storage (localStorage): Currently, tasks are lost upon refreshing the page. Integrating localStorage will allow users to save their data locally in the browser so that their to-do list remains available across sessions.
-- Keyboard Accessibility: Adding an event listener for the "Enter" key will allow users to add tasks more quickly without having to click the button every time.
 - Task Editing: Implementing an "Edit" feature so users can correct typos or update task descriptions without deleting and recreating them.
 - Drag-and-Drop Functionality: Allowing users to reorder tasks manually to prioritize their daily goals.
 - Task Filtering: Adding buttons to filter tasks by status (e.g., "All," "Active," and "Completed") for better organization.
@@ -41,4 +39,4 @@ While the application is fully functional, there are several features I plan to 
 - Dark/Light Mode Toggle: Adding a theme switcher to allow users to choose their preferred visual style.
 
 ## 🍿 Video
-https://github.com/user-attachments/assets/a2763a70-9fb7-4b63-a196-846dce3b35bb
+https://github.com/user-attachments/assets/f70caa21-05c9-4d13-a546-b15e0c344a7a
