@@ -9,21 +9,26 @@
   <body>
     <main class="todo-main-container">
       <div class="add-contanier">
-        <input type="text" placeholder="Add a new task" id="task-input" />
-        <button type="button" class="add-btn btn">
+        <input
+          type="text"
+          placeholder="Add a new task"
+          id="task-input"
+          autocomplete="off"
+        />
+        <button type="button" class="add-btn btn" aria-label="Add task">
           <img src="images/plus.svg" alt="plus image" />
         </button>
       </div>
       <div class="all-tasks-todo-container">
-        <p class="info-about-the-amount-of-tasks">
+        <h2 class="info-about-the-amount-of-tasks">
           Tasks to do - <span class="amount-of-tasks">0</span>
-        </p>
+        </h2>
         <ul class="list-of-tasks"></ul>
       </div>
       <div class="done-tasks-container">
-        <p class="info-about-the-amount-of-tasks done">
+        <h2 class="info-about-the-amount-of-tasks done">
           Done - <span class="amount-of-done-tasks">0</span>
-        </p>
+        </h2>
         <ul class="done-tasks-list"></ul>
       </div>
     </main>
